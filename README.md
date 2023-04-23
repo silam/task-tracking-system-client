@@ -3,7 +3,9 @@
 
 npm i @reduxjs/tookkit react-redux 
 
+# 04-23-23
 
+Create userSlice, taskSlice, authSlice and combineReducers
 
 # Getting Started with Create React App
 
