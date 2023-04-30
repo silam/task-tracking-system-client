@@ -20,5 +20,5 @@ const slice = createSlice({
     }
 })
 
-export default slice.reducers;
-export const {getTasks, createTasks, updateTasks, makeComplete} = slice.action;
+export default slice.reducer;
+export const {getTasks, createTasks, updateTasks, makeComplete} = slice.actions;

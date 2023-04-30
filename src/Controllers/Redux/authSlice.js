@@ -11,6 +11,8 @@ const slice = createSlice({
             const {name, password} = action.payload;
             state.loggedIn = true;
             state.admin = true;
+            console.log(name, password);
+            console.log(state);
         },
         signOut: (state)=>
         {
@@ -24,5 +26,5 @@ const slice = createSlice({
     }
 })
 
-export default slice.reducers;
+export default slice.reducer;
 export const {signIn, signOut, createUser} = slice.actions;
