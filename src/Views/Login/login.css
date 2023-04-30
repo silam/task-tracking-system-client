@@ -8,4 +8,30 @@
     background-color: rgba(0, 0, 0, 0.199);
     background-blend-mode: multiply;
     background-attachment: fixed;
+    position: absolute;
+}
+
+.login-panel {
+    background-color: var(--prime-color);
+    width: 25vw;
+    border: 1px solid rgb(187, 150, 150);
+    border-radius: 5px;
+    margin: 25vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.login-panel h1 {
+    width: 100%;
+}
+
+.login-panel input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    margin: 10px;
+    padding-left: 2px;
 }

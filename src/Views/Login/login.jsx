@@ -22,11 +22,13 @@ export default function Login() {
     }
 
     return (
-        <div>
-            <form className="login-page">
+        <div className="login-page">
+            <form className="login-panel">
                 <h1>Login:</h1>
-                <input name='name' placeholder="name" type="text" onChange={inputChanged} value={formInput.name}/>
-                <input name='password' placeholder="password" type="password" onChange={inputChanged} value={formInput.password}/>
+                <input name='name' placeholder="name" type="text" 
+                            onChange={inputChanged} value={formInput.name}/>
+                <input name='password' placeholder="password" type="password" 
+                            onChange={inputChanged} value={formInput.password}/>
                 <button type="submit" onClick={submit}>Login</button>
 
             </form>

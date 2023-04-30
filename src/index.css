@@ -3,3 +3,19 @@ html {
   --prime-color: #246e70;
   color: white;
 }
+
+button {
+  background: #ef6c57;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  font: normal bold 18px "Helvetica Neue",Helvetica,Arial,sans;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+button:hover {
+  transition:  all 0.3s;
+  background: #9c3829;
+
+}
